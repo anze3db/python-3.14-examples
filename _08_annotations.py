@@ -1,3 +1,6 @@
+from annotationlib import Format, get_annotations
+
+
 class Conference:
     attendees: list[Attendee]
 
@@ -5,8 +8,6 @@ class Conference:
 class Attendee:
     pass
 
-
-from annotationlib import Format, get_annotations
 
 print(get_annotations(Conference, format=Format.STRING))
 
