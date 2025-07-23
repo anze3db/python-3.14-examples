@@ -1,4 +1,3 @@
-from html import escape
 from string.templatelib import Interpolation, Template
 
 name = "World"
