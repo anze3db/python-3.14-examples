@@ -2,7 +2,6 @@ import os
 from concurrent.futures import (
     InterpreterPoolExecutor,
     ProcessPoolExecutor,
-    ThreadPoolExecutor,
 )
 
 # With multiple isolated interpreters, you can take advantage of a class of concurrency models, like CSP or the actor model, that have found success in other programming languages, like Smalltalk, Erlang, Haskell, and Go. Think of multiple interpreters like threads but with opt-in sharing.
