@@ -1,6 +1,6 @@
 from compression import bz2, zlib, zstd
 
-data = b"Hellow world"
+data = b"Hello world"
 print("original", len(data))
 res = zstd.compress(data, level=3)
 print(len(res), "zstd")
