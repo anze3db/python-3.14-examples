@@ -20,3 +20,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+# python -m asyncio ps PID
+# python -m asyncio pstree PID
