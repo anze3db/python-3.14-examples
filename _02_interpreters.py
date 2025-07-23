@@ -37,5 +37,5 @@ def run_fib_proc():
             executor.submit(fib_task, 35)
 
 
-# uv run --python 3.14 python -m timeit -n 1 -r 1 -s 'import _02_interpreters' '_02_interpreters.run_fib_int()'
-# uv run --python 3.14 python -m timeit -n 1 -r 1 -s 'import _02_interpreters' '_02_interpreters.run_fib_proc()'
+# python3.14 -m timeit -n 1 -r 1 -s 'import _02_interpreters' '_02_interpreters.run_fib_int()'
+# python3.14 -m timeit -n 1 -r 1 -s 'import _02_interpreters' '_02_interpreters.run_fib_proc()'

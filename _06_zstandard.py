@@ -1,12 +1,15 @@
 from compression import bz2, zlib, zstd
 
-print("original", len(b"Hello, World!"))
-res = zstd.compress(b"Hello, World!", level=3)
-print(len(res), "zstd", zstd.decompress(res).decode())
+data = b"Hellow world"
+print("original", len(data))
+res = zstd.compress(data, level=3)
+print(len(res), "zstd")
 
-res = bz2.compress(b"Hello, World!", compresslevel=3)
-print(len(res), " bz2", bz2.decompress(res).decode())
+res = bz2.compress(data, compresslevel=3)
+print(len(res), " bz2")
 
 
-res = zlib.compress(b"Hello, World!", level=3)
-print(len(res), "zlib", zlib.decompress(res).decode())
+res = zlib.compress(data, level=3)
+print(len(res), "zlib")
+
+# python3.14 _06_zstandard.py

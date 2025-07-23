@@ -1,3 +1,4 @@
+from html import escape
 from string.templatelib import Interpolation, Template
 
 name = "World"
@@ -11,3 +12,5 @@ for item in greeting:
         string.append(item)
 
 print("".join(string))
+
+# python3.14 _03_template_strings.py

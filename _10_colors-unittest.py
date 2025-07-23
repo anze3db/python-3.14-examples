@@ -10,3 +10,6 @@ class TestHello(TestCase):
 
     def test_failure(self):
         self.assertTrue(False)
+
+
+# python3.14 -m unittest _10_colors-unittest.py

@@ -29,5 +29,5 @@ def run_sleep():
             executor.submit(sleep_task, 0.1)
 
 
-# uv run --python 3.14 python -m timeit -n 1 -r 1 -s 'import _01_free_threaded' '_01_free_threaded.run_fib()'
-# uv run --python 3.14 python -m timeit -n 1 -r 1 -s 'import _01_free_threaded' '_01_free_threaded.run_sleep()'
+# python3.14 -m timeit -n 1 -r 1 -s 'import _01_free_threaded' '_01_free_threaded.run_fib()'
+# python3.14 -m timeit -n 1 -r 1 -s 'import _01_free_threaded' '_01_free_threaded.run_sleep()'

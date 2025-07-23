@@ -15,3 +15,6 @@ try:
     raise ValueError()
 except ValueError, e:
     print("Caught a ValueError:", e)
+
+# python3.14 _07_exception_parantheses.py
+# docker run -it --rm -v $(pwd):/data  python:3.14-rc-bookworm python
