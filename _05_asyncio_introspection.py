@@ -24,4 +24,4 @@ if __name__ == "__main__":
 # python3.14 _05_asyncio_introspection.py &
 # python3.14 -m asyncio ps PID
 # python3.14 -m asyncio pstree PID
-# docker run -it --rm -v $(pwd):/data  python:3.14-rc-bookworm bash
+# docker run -it --rm -v $(pwd):/data -w /data  python:3.14-rc-bookworm bash

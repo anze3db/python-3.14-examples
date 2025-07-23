@@ -7,4 +7,4 @@ while True:
 
 # python3.14 _04_remote_debugging.py &
 # python3.14 -m pdb -p PID
-# docker run -it --rm -v $(pwd):/data  python:3.14-rc-bookworm bash
+# docker run -it --rm -v $(pwd):/data -w /data  python:3.14-rc-bookworm bash
