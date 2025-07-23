@@ -1,0 +1,81 @@
+{
+    "conference": {
+        "name": "PyCon Portugal 2025",
+        "location": {
+            "city": "Cascais",
+            "country": "Portugal",
+            "venue": "Nova SBE (Nova School of Business and Economics)",
+            "coordinates": {
+                "latitude": 38.7223,
+                "longitude": -9.4215
+            }
+        },
+        "dates": {
+            "start": "2025-07-24",
+            "end": "2025-07-26",
+            "main_conference": "2025-07-24",
+            "workshops": "2025-07-26",
+            "call_for_papers_deadline": "2025-03-31",
+            "talks_publication": "2025-04-15",
+            "schedule_publication": "2025-04-30"
+        },
+        "ticket_types": [
+            {
+                "type": "Student",
+                "price": 30,
+                "currency": "EUR",
+                "description": "If you are currently enrolled as a full-time student or if you are currently without regular income.",
+                "url": "https://pretix.evolutio.pt/evolutio/pyconpt2025/"
+            },
+            {
+                "type": "Individual",
+                "price": 75,
+                "currency": "EUR",
+                "description": "If you are paying your ticket from your personal money and are not being reimbursed by your employer.",
+                "url": "https://pretix.evolutio.pt/evolutio/pyconpt2025/"
+            },
+            {
+                "type": "Business",
+                "price": 125,
+                "currency": "EUR",
+                "description": "If your employer is paying for the ticket or reimbursing you for your conference expenses.",
+                "url": "https://pretix.evolutio.pt/evolutio/pyconpt2025/"
+            }
+        ],
+        "past_editions": {
+            "locations": [
+                "Braga",
+                "Porto",
+                "Coimbra"
+            ],
+            "note": "PyCon Portugal has been held in various cities across Portugal"
+        },
+        "statistics": {
+            "target_audience": [
+                "Experienced programmers",
+                "Hobby hackers",
+                "Absolute beginners"
+            ],
+            "community_focus": "Python community in Portugal and internationally"
+        },
+        "features": {
+            "multilingual": true,
+            "community_driven": true,
+            "volunteer_organized": true,
+            "international_speakers": true,
+            "workshops": true,
+            "networking": true
+        },
+        "contact": {
+            "website": "https://2025.pycon.pt/",
+            "tickets": "https://pretix.evolutio.pt/evolutio/pyconpt2025/",
+            "social_media": {
+                "twitter": "https://x.com/PyConPT",
+                "slack": "https://join.slack.com/t/pyconportugal/shared_invite/zt-1ckszg1ye-QDgxx3lOkC15Ocal8xhCSg",
+                "youtube": "https://www.youtube.com/@pyconportugal",
+                "linkedin": "https://www.linkedin.com/company/84778227",
+                "github": "https://github.com/pyconpt/"
+            }
+        }
+    }
+}
