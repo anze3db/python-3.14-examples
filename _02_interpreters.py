@@ -19,12 +19,6 @@ def fib_task(n: int) -> int:
 tasks = os.cpu_count() or 2
 
 
-def run_fib_thread():
-    with ThreadPoolExecutor(max_workers=tasks) as executor:
-        for _ in range(tasks):
-            executor.submit(fib_task, 35)
-
-
 def run_fib_int():
     with InterpreterPoolExecutor(max_workers=tasks) as executor:
         for _ in range(tasks):
